@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="content-language" content="en" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="imagetoolbar" content="no" />
+
+    <meta name="Author" content="Humanity in Action Polska" />
+    <meta name="Publisher" content="www.pullthebrake.eu" />
+    <meta name="Copyright" content="www.pullthebrake.eu" />
+    <meta name="keywords" content="hejt" />
+    <meta name="page-topic" content="hejt" />
+    <meta name="description" content="Hejtowanie Romów to dyskryminacja. To pierwszy krok do spolecznego wykluczenia i przemocy. Zastopuj hejt teraz, nim nie jest za pózno." />
+
+    <meta property="og:url" content="http://pullthebrake.eu/" />
+    <meta property="og:title" content="Zastopuj Hejt Przeciwko Romom" />
+    <meta property="og:description" content="Hejtowanie Romów to dyskryminacja. To pierwszy krok do spolecznego wykluczenia i przemocy. Zastopuj hejt teraz, nim nie jest za pózno." />
+    <meta property="og:type" content="website" />
+    
+    <link rel="icon" href="img/fav/favicon.png" type="image/png" />  
+    <link rel="shortcut icon" href="img/fav/favicon.png" type="image/png" />
+
+    <link rel="apple-touch-icon" href="img/fav/apple-touch-57.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="img/fav/apple-touch-72.png"/>  
+    <link rel="apple-touch-icon" sizes="114x114" href="img/fav/apple-touch-114.png"/> 
+
+    <meta property="og:image" content="http://pullthebrake.eu/img/fav/facebook.jpg" />
+    <link rel="image_src" href="img/fav/facebook.jpg" />
+
+    <title>Zastopuj Hejt Przeciwko Romom</title>
+    
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/pullthebrake.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="container" id="hero">
+
+      <div class="row">
+
+        <div class="col-md-4 col-md-offset-1">
+
+          <div id="brake">
+
+            <img src="img/brake-1.png" id="box" class="img-responsive" alt="Zastopuj Hejt" />
+
+            <img src="img/brake-2.png" id="handle" class="img-responsive" />
+
+          </div>
+
+        </div>
+
+        <div class="col-md-6">
+
+          <h1>Zastopuj Hejt <span class="smaller">Przeciwko Romom</span></h1>
+
+          <p>Hejtowanie Rom&oacute;w to dyskryminacja. To pierwszy krok do spolecznego wykluczenia i przemocy.<br />
+          Zastopuj hejt teraz dop&oacute;ki nie jest za p&oacute;zno.</p>
+
+          <p>Pociagnij za hamulec po wiecej informacji.</p>
+
+          <p class="counter">2653 os&oacute;b pociagnelo juz za hamulec!</p>
+
+        </div>
+
+      </div> <!-- / .row -->
+
+    </div> <!-- / .container -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+ 
+      $('#brake').click(function() {
+        $("#brake #handle").animate({marginTop: "0"}, 1000);
+        setTimeout(function(){
+            window.location = 'hatespeech.php';
+        }, 1500);
+      });
+      
+    </script>
+
+  </body>
+</html>
