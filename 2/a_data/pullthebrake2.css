@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'Geared';
+    src: url('PlatanBG-Bold.otf');
+    src: url('PlatanBG-Bold.otf?#iefix') format('embedded-opentype'),
+         url('PlatanBG-Bold.otf') format('woff'),
+         url('PlatanBG-Bold.otf') format('truetype'),
+         url('PlatanBG-Bold.otf#geared_slabbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+	font-family:'Helvetica Neue','Helvetica','Arial',sans-serif;
+	color:white;
+	background:#242424;
+	font-size:18px;
+}
+
+#hero {
+	margin:80px 0;
+	text-align:center;
+}
+
+#brake {
+	margin:0 auto;
+	max-width:305px;
+	cursor:pointer;
+}
+
+#brake img {
+	position:relative;
+}
+
+#brake #box {
+	z-index:2;
+}
+
+#brake #handle {
+	margin-top:-80px;
+	z-index:1;
+}
+
+h1 {
+	font-family:'Geared',serif;
+	font-size:40px;
+	line-height:40px;
+	font-weight:normal;
+	text-transform: uppercase;
+	margin-top:1em;
+}
+
+h1 .smaller {
+	display:block;
+	font-size:48px;
+}
+
+.counter {
+	font-size:12px;
+	margin-top:3em;
+	border-top:1px solid #999;
+	padding-top:3em;
+}
+
+section {
+	padding:40px 0;
+	border-bottom:1px solid #333;
+	overflow:auto;
+}
+
+.infogfx {
+	display:block;
+	margin:0 auto 40px;
+}
+
+.logo {
+  margin-right:30px;
+  float:left;
+}
+
+/* md */
+@media only screen and (min-width : 992px) {
+
+	#hero { text-align:left; }
+	h1 { margin-top:.5em; font-size:60px; line-height:60px; }
+	h1 .smaller { line-height:48px; }
+
+}
