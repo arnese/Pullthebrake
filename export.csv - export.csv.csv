@@ -1,11 +1,11 @@
 id,name,email,contact,address,url,classification,jurisdiction__slug,tags,other_names,website_dump,description,request_note,parent__name
 ,Westdeutsche Lotterie GmbH & Co. OHG,info@westlotto.com,,,,Lotto,nrw,,,,,,
-,Sächsische LOTTO-GmbH,service@sachsenlotto.de,,,,Lotto,Sachen,,,,,,
+,Sächsische LOTTO-GmbH,service@sachsenlotto.de,,,,Lotto,Sachsen,,,,,,
 ,Staatlichen Toto-Lotto GmbH Baden-Württemberg,kundenservice@lotto-bw.de,,,,Lotto,Baden-Württemberg,,,,,,
 ,LAND BRANDENBURG LOTTO GmbH,zentrale@lotto-brandenburg.de,,,,Lotto,Brandenburg,,,,,,
 ,Lotterie-Treuhandgesellschaft mbH Hessen,kundenservice@lotto-hessen.de,,,,Lotto,Hessen,,,,,,
 ,LOTTO Hamburg GmbH,service@lotto-hh.de,,,,Lotto,Hamburg,,,,,,
-,Lotterie-Treuhandgesellschaft mbH Thüringen,internetspiel@lotto-thueringen.de,,,,Lotto,thueringen,,,,,,
+,Lotterie-Treuhandgesellschaft mbH Thüringen,internetspiel@lotto-thueringen.de,,,,Lotto,Thueringen,,,,,,
 ,Saarland-Sporttoto GmbH,info@saartoto.de,,,,Lotto,Saarland,,,,,,
 ,Bremer Toto und Lotto GmbH,service@lotto-bremen.de,,,,Lotto,Bremen,,,,,,
 ,Lotto-Toto GmbH Sachsen-Anhalt,zentrale@sachsen-anhalt-lotto.de,,,,Lotto,Sachsen-Anhalt,,,,,,
